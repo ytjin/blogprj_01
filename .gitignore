@@ -1,0 +1,56 @@
+# Ignore the entire env directory
+/env/
+
+# Except the diyblog and blog directories within env
+!/env/blogprj_01/
+!/env/blog/
+
+# Ignore all files in the virtual environment
+/env/*
+/env/Lib/
+/env/Scripts/
+/env/include/
+/env/pyvenv.cfg
+
+# Django #
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+local_settings.py
+
+# Django stuff:
+*.sqlite3
+/media
+
+# Python #
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environments #
+.env
+.venv
+.python-version
+
+# Installers #
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+sdist/
+*.pyc
+*.pyo
+.mypy_cache/
+.tox/
+.coverage
